@@ -1,0 +1,36 @@
+.fundopag {
+    background-color: #c2e6f7 !important;
+}
+
+.fundonav {
+    background-color: #85ceef !important;
+}
+
+.fundocard {
+    background-color: #a4daf3 !important;
+}
+
+html, body {
+    height: 100%;
+}
+.container {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-container, .button-container {
+    width: 100%;
+    max-width: 300px;
+}
+
+input::placeholder {
+    color: #a4daf3 ;
+    text-align: center;
+}
+
+.custom-bg {
+    background-color: #a4daf3;
+    border: 1px solid black;
+}
